@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap');
+/* General CSS */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Rajdhani', sans-serif;;
+    background-color: #0B233D;
+    color: #F2F7F8;
+    overflow-x: hidden;
+}
+/* Container */
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+/* Navbar CSS */
+.navbar{
+    color: #FFFFFF;
+    background: linear-gradient(0deg, rgba(11, 35, 61, 0.48) -79.55%, #00356F 88.64%);
+    height: 87px;
+}
+.navbar .logo {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 400;
+}
+.navbar a {
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+ul{
+    list-style-type: none;
+}
+.navbar ul {
+    display: flex;
+}
+.navbar ul li {
+    margin-left: 28px;
+}
+.navbar .dropdown {
+    margin-left: 28px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown .btn-drop {
+    font-weight: 600;
+    font-size: 17px;
+    margin: 0;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background: linear-gradient(0deg, rgba(11, 35, 61, 0.48) -79.55%, #00356F 88.64%);
+}
+.dropdown-menu a {
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-menu a:hover {
+    color: #212121;
+    background: linear-gradient(180.9deg, #FFED31 50%, rgba(184, 162, 0, 0) 214.08%);
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+#world-menu{
+    width: 150px;
+}
+/* Custom Fonts */
+.custom-font{
+    font-family: 'Days One', sans-serif;
+}
+.header-text{
+    color: #F2F7F8;
+}
+.subheading{
+    color: #6BE9E6;
+    line-height: 30px;
+}
+/* Row */
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+}
+.col{
+    padding: 100px;
+}
+.col-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 500px
+}
+.col-text h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.col-text p {
+    font-size: 20px;
+}
+/* Image */
+.img-fluid{
+    max-width: 100%;
+}

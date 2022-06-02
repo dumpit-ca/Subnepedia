@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&display=swap');
+
+.header {
+    background-image: url("/images/plaeholder.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.header h1 {
+    font-weight: 400;
+    text-align: center;
+    font-size: 4rem;
+    line-height: 1.2;
+}
+
+.header p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 0;
+}
+
+.buttons .btn-hero {
+    border: 1px solid #6BE9E6;
+    background: linear-gradient(180deg, rgba(11, 35, 61, 0.48) 20.45%, #00356F 100%);
+    border-radius: 5px;
+    padding: 8px 20px;
+}
+.buttons button:hover {
+    background: linear-gradient(180deg, #6BE9E6 50%, #007E97 129.55%);
+}
+/* Row sectioc */
+.heading {
+    margin: 5rem auto;
+}
+.heading h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+.heading p {
+    font-size: 20px;
+    width: 500px;
+}
+.index-row{
+    display: flex;
+    justify-content: center;
+}
+.index-row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+/* .heading .subheading {
+    text-align: center;
+} */
+.col-text-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5rem auto;
+}
+.heading .subheading{
+    width: 100%;
+    text-align: center;
+}
+.slider-frame{
+    overflow: hidden;
+}
+.slider-frame figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 10s slider infinite;
+}
+.slider-frame figure img {
+    float: left;
+    width: 20%; 
+}
+@keyframes slider {
+    0% {left: 0;}
+    20% {left: 0;}
+    25% {left: -100%;}
+    45% {left: -100%;}
+    50% {left: -200%;}
+    70% {left: -200%;}
+    75% {left: -300%;}
+    95% {left: -300%;}
+    100% {left: -400%;}
+
+}
