@@ -28,7 +28,7 @@ body {
     height: 87px;
 }
 
-.navbar .first {
+.first {
     background-image: linear-gradient(180.9deg, #FFED31 50%, rgba(184, 162, 0, 0) 214.08%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -36,7 +36,7 @@ body {
     color: transparent;
 }
 
-.navbar .second {
+.second {
     background-image: linear-gradient(180deg, #6BE9E6 50%, #007E97 129.55%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -44,9 +44,9 @@ body {
     color: transparent;
 }
 
-.navbar .logo {
+.logo {
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 400;
 }
 
@@ -73,7 +73,7 @@ ul {
 }
 
 .navbar ul li {
-    margin-left: 28px;
+    margin-left: 30px;
 }
 
 .navbar .dropdown {
@@ -123,32 +123,67 @@ ul {
     font-family: 'Days One', sans-serif;
 }
 
-.header-text {
-    color: #F2F7F8;
+.heading-header {
+    font-size: 60px;
+    line-height: 1.2;
 }
 
 .subheading {
-    font-weight: 400;
+    font-weight: 600;
     color: #6BE9E6;
     line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin: 24px;
 }
 
 /* Image */
 .img-fluid {
     max-width: 100%;
 }
+
 /* Buttons */
-.border-6{ 
-    border-radius: .5rem; 
+.border-6 {
+    border-radius: .5rem;
     border: none
 }
-.button-1{ background-image: linear-gradient(180deg, #6be9e6, #007e97); }
-.button-2{ background-image: linear-gradient(180deg, #0b233d, #00356f); }
-.button-3{ background-image: linear-gradient(180deg, #ffed31, #b8a200); }
+
+.button-1 {
+    background-image: linear-gradient(180deg, #6be9e6, #007e97);
+}
+
+.button-2 {
+    background-image: linear-gradient(180deg, #0b233d, #00356f);
+}
+
+.button-3 {
+    background-image: linear-gradient(180deg, #ffed31, #b8a200);
+}
 
 /* Footer */
+.footer{
+    background: linear-gradient(0deg, rgba(11, 35, 61, 0.48) -79.55%, #00356F 88.64%);
+}
 .footer .container{
     display: flex;
+    flex-direction: column;
+    padding: 64px 99px;
+    gap: 18px;
+}
+.footer ul{
+    display: flex;
+}
+.footer a {
+    text-decoration: none;
+    color: #F2F7F8;
+    font-size: 18px;
+}
+.footer .footer-nav{
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+.footer ul li {
+    margin-left: 30px;
 }
