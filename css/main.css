@@ -123,14 +123,6 @@ ul {
 .custom-font {
     font-family: 'Days One', sans-serif;
 }
-
-.heading-header {
-    text-align: center;
-    font-size: 60px;
-    line-height: 1.2;
-    margin: 2rem 0;
-}
-
 .subheading {
     font-weight: 600;
     color: #6BE9E6;
@@ -140,10 +132,34 @@ ul {
     margin: 24px;
 }
 .page-header{
+    text-align: center;
     font-weight: 400;
     font-size: 70px;
 }
-
+.page-title {
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 60px;
+}
+/* Spacings */
+.my-8{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+.my-5{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.mb-3{
+    margin-bottom: 5rem
+}
+.mt-10{
+    margin-top: 10rem;
+}
+.mb-10{
+    margin-bottom: 10rem;
+}
 /* Image */
 .img-fluid {
     max-width: 100%;
