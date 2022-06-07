@@ -1,6 +1,6 @@
 /* Header / Hero Image */
 .index-header {
-    background-image: url("/images/hero_image.png");
+    background-image: url("/images/Main/hero_image.png");
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;

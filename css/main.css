@@ -171,15 +171,15 @@ ul {
     border: none
 }
 
-.button-1 {
+.color-1 {
     background-image: linear-gradient(180deg, #6be9e6, #007e97);
 }
 
-.button-2 {
+.color-2 {
     background-image: linear-gradient(180deg, #0b233d, #00356f);
 }
 
-.button-3 {
+.color-3 {
     background-image: linear-gradient(180deg, #ffed31, #b8a200);
 }
 
