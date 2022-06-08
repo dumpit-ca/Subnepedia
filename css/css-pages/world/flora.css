@@ -16,7 +16,7 @@
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    padding: 70px 95px;
+    padding: 60px 95px;
     gap: 40px;
 }
 
@@ -24,7 +24,7 @@
     font-size: 20px;
     text-align: justify;
 }
-/* flora */
+/* flora Items */
 .flora .container{
     display: flex;
     justify-content: center;
@@ -44,8 +44,8 @@
     gap: 40px;
 }
 .flora .item img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     overflow: hidden;
     border: 2px solid #5D5FEF;

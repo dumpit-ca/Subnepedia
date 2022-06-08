@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
 
 /* General CSS */
+html {
+    scroll-behavior: smooth;
+}
 * {
     box-sizing: border-box;
     padding: 0;
@@ -151,8 +154,11 @@ ul {
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
-.mb-3{
+.mb-5{
     margin-bottom: 5rem
+}
+.mt-2{
+    margin-top: 2rem;
 }
 .mt-10{
     margin-top: 10rem;
