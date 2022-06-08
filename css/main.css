@@ -138,6 +138,7 @@ ul {
     text-align: center;
     font-weight: 400;
     font-size: 70px;
+    margin-left: 2rem;
 }
 .page-title {
     line-height: 1.2;
@@ -188,7 +189,19 @@ ul {
 .color-3 {
     background-image: linear-gradient(180deg, #ffed31, #b8a200);
 }
+/* Overviews for the pages */
+.overview .container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 60px 95px;
+    gap: 40px;
+}
 
+.overview-text {
+    font-size: 20px;
+    text-align: justify;
+}
 /* Footer */
 .footer{
     background: linear-gradient(0deg, rgba(11, 35, 61, 0.48) -79.55%, #00356F 88.64%);
