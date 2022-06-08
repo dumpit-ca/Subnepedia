@@ -1,0 +1,12 @@
+.starting-header{
+    background-image: url("/images/image-banner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 539px;
+    display: flex;
+}
+.starting-header .container{
+    display: flex;
+    align-items: center;
+}
