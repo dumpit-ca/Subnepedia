@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+
+.storyline-header {
+    background-image: url("/images/image-banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 539px;
+    display: flex;
+    align-items: center;
+    padding: 112px;
+    }
+
+.storyline-header .container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.header h1 {
+    font-size: 50px;
+    text-align: center;
+    line-height: 1.2;
+    margin: 2rem 0; 
+    padding-top: 50px;
+}
+
+.header h2 {
+    text-align: center;
+    color: aqua;
+    margin-top: 50px; 
+    font-size: 20px;
+}
+
+.heading-two h1 {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 50px;
+}
+
+
+/*circles*/
+.circle {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 180px;
+}
+
+.circle2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 180px;
+} 
+    
+.circle3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 180px;
+}
+
+.flex-circle {
+    width: 150px;
+    height: 150px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 150px;
+    border-radius: 300px;
+    background-color: aqua;
+    margin: 70px;
+    color: black;
+}
+
+.flex-circle h1 {
+    margin: -50px;
+}
+/*circles*/
+
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}

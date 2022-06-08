@@ -1,0 +1,67 @@
+.survival-header {
+    background-image: url("/images/image-banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 539px;
+    display: flex;
+    align-items: center;
+    padding: 112px;
+    }
+
+.survival-header .container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.image1 {
+    position: absolute;
+    top: 800px;
+    right: 10%;
+    z-index: 2;
+}
+
+.text p {
+    text-align: justify;  
+    font-size: 20px;
+    float: left;
+    margin: 250px 800px 75px 100px;
+}
+
+.energy-header h1 {
+    text-align: center;
+    margin-top: 750px;
+}
+
+.energy-header h2 {
+    text-align: center;
+    margin: 50px 500px;
+}
+
+/* energy image */
+.energy-img .energy-1 {
+    display: flex;
+    justify-content: center; 
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+.energy-img .energy-2 {
+    display: flex;
+    justify-content: center;    
+    justify-content: space-evenly; 
+}
+
+.food-header .container {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+
+.water-header .container {
+    text-align: center;
+    margin-bottom: 50px;
+
+}
