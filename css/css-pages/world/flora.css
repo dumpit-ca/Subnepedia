@@ -1,8 +1,9 @@
 .flora-header {
-    background-image: url("/images/image-banner.png");
+    background-image: url("/images/World-Page/Flora-Page/Flora-items/hero-img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 539px;
+    background-position: center;
+    height: 100vh;
     display: flex;
     padding: 50px;
 }
