@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+
+/* General CSS */
+html {
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+    background-color: #0B233D;
+    color: #F2F7F8;
+    overflow-x: hidden;
+}
+
+/* Container */
+.container {
+    max-width: 100%;
+    margin: 0;
+    padding: 0 30px;
+}
+
+/* Navbar CSS */
+.navbar {
+    color: #FFFFFF;
+    background: linear-gradient(0deg, rgba(11, 35, 61, 0.48) -79.55%, #00356F 88.64%);
+    height: 87px;
+}
+
+.first {
+    background-image: linear-gradient(180.9deg, #FFED31 50%, rgba(184, 162, 0, 0) 214.08%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.second {
+    background-image: linear-gradient(180deg, #6BE9E6 50%, #007E97 129.55%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.navbar a {
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 30px;
+}
+
+.navbar .dropdown {
+    margin-left: 28px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown .btn-drop {
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background: linear-gradient(0deg, rgba(11, 35, 61, 0.48) -79.55%, #00356F 88.64%);
+}
+
+.dropdown-menu a {
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    color: #212121;
+    background: linear-gradient(180.9deg, #FFED31 50%, rgba(184, 162, 0, 0) 214.08%);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+#world-menu {
+    width: 150px;
+}
+
+/* Typography */
+.custom-font {
+    font-family: 'Days One', sans-serif;
+}
+.subheading {
+    font-weight: 600;
+    color: #6BE9E6;
+    line-height: 30px;
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 24px;
+}
+.page-header{
+    text-align: center;
+    font-weight: 400;
+    font-size: 4.4rem;
+    margin-left: 2rem;
+}
+.page-title {
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 4rem;
+}
+/* Spacings */
+.my-8{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+.my-5{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.mb-5{
+    margin-bottom: 5rem
+}
+.my-3{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.mt-2{
+    margin-top: 2rem;
+}
+.mt-10{
+    margin-top: 10rem;
+}
+.mb-10{
+    margin-bottom: 10rem;
+}
+/* Image */
+.img-fluid {
+    max-width: 100%;
+}
+
+/* Buttons */
+.border-6 {
+    border-radius: .5rem;
+    border: none
+}
+.button-text{
+    text-transform: uppercase;
+}
+/* Colors */
+
+.color-1 {
+    background-image: linear-gradient(180deg, #6be9e6, #007e97);
+}
+
+.color-2 {
+    background-image: linear-gradient(180deg, #0b233d, #00356f);
+}
+
+.color-3 {
+    background-image: linear-gradient(180deg, #ffed31, #b8a200);
+}
+/* divider */
+.hr-divider{
+    display: flex;
+    justify-content: center;
+    padding: 69px 125px;
+}
+.divider{
+    border-top: 6px solid #6BE9E6;
+    width: 1157px;
+    border-radius: 5px;
+}
+/* Overviews for the pages */
+.overview .container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 60px 95px;
+    gap: 40px;
+}
+
+.overview-text {
+    font-size: 1.3rem;
+    text-align: justify;
+}
+/* Footer */
+.footer{
+    background: linear-gradient(0deg, rgba(11, 35, 61, 0.48) -79.55%, #00356F 88.64%);
+}
+.footer .container{
+    display: flex;
+    flex-direction: column;
+    padding: 64px 99px;
+    gap: 18px;
+}
+.footer ul{
+    display: flex;
+}
+.footer a {
+    text-decoration: none;
+    color: #F2F7F8;
+    font-size: 1.1rem;
+}
+.footer .footer-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer ul li {
+    margin-left: 30px;
+}

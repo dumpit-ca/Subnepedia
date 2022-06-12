@@ -1,0 +1,67 @@
+.explore-header {
+    background-image: url("/images/image-banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 539px;
+    display: flex;
+    padding: 50px;
+}
+
+.explore-header .container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* About Us Section */
+.about-section {
+    padding: 70px 95px;
+}
+
+.about-section .about-us p {
+    text-align: justify;
+    font-size: 20px;
+    line-height: 26px;
+    width: 1249px;
+}
+
+.about-section .about-us {
+    margin: 10px 3rem;
+}
+
+.about-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Trailers Section */
+.trailers .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trailers {
+    padding: 80px 120px;
+}
+
+.trailer-video img {
+    margin: 60px 20px;
+}
+
+/* Gallery Section */
+.gallery .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.gallery img {
+    margin: 50px 20px;
+    width: 345px;
+    height: 280px;
+}
+.gallery .gallery-img{
+    margin: 40px 0;
+}

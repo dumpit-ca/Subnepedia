@@ -1,0 +1,40 @@
+.flora-header {
+    background-image: url("/images/World-Page/Flora-Page/Flora-items/hero-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    padding: 50px;
+}
+
+.flora-header .container {
+    display: flex;
+    align-items: center;
+}
+/* flora Items */
+.flora .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flora .list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+}
+.list div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.flora .item img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #5D5FEF;
+}
