@@ -4,8 +4,7 @@
     background-repeat: no-repeat;
     min-height: 539px;
     display: flex;
-    align-items: center;
-    padding: 112px;
+    padding: 50px;
 }
 
 .explore-header .container {
@@ -14,19 +13,9 @@
     flex-direction: row;
 }
 
-.explore-header h1 {
-    margin: 0 !important;
-    font-weight: 400;
-    font-size: 70px;
-}
-
 /* About Us Section */
 .about-section {
     padding: 70px 95px;
-}
-
-.about-section h1 {
-    font-size: 50px;
 }
 
 .about-section .about-us p {
@@ -72,4 +61,7 @@
     margin: 50px 20px;
     width: 345px;
     height: 280px;
+}
+.gallery .gallery-img{
+    margin: 40px 0;
 }
