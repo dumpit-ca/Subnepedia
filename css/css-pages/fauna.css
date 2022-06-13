@@ -26,51 +26,28 @@
     margin: 100px;
 }
 
-.circles {
-   display: flex;
-   align-items: center;
-   justify-content: center;
+.flora-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.circle-1 {
-    background-color: #bbb;
-    height: 115px;
-    width: 110px;
-    border-radius: 120px;
-    margin: 50px;
-
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
 }
-
-.divider {
-    width: 1300px;
-    height: 5px;
-    background-color: aqua;
-    display: inline-block;
-    margin-top: 100px;
-    margin-left: 100px;
-    border-radius: 15px;
+.list div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
-
-
-/*herbivores*/
-.herbivores-header {
-    margin: 150px 50px;
-}
-
-.circle-2 {
-    background-color: #bbb;
-    height: 115px;
-    width: 110px;
-    border-radius: 120px;
-    margin: 35px;
-
-}
-
-/*sp*/
-.sp-header {
-    margin: 150px 50px;
-}
-
-.footer {
-    margin-top: 200px;
+.item img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #5D5FEF;
+    
 }

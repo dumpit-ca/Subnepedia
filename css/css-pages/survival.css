@@ -35,28 +35,47 @@
 
 .energy-header h2 {
     text-align: center;
-    margin: 50px 500px;
+    margin-top: 200px;
+    margin-bottom: 100px;
 }
 
 /* energy image */
-.energy-img .energy-1 {
-    display: flex;
-    justify-content: center; 
-    justify-content: space-evenly;
-    margin-bottom: 50px;
-    margin-top: 80px;
+* {
+    padding: 0;
+    margin: 0;
 }
 
-.energy-img .energy-2 {
+.card-container {
     display: flex;
-    justify-content: center;    
-    justify-content: space-evenly; 
+    justify-content: center;
 }
+
+.cards {
+    width: 20%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 1px 1px 10px black;
+}
+
+.image img {
+    width: 70%;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 50px;
+}
+
+.title {
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+/* energy image */
 
 .food-header .container {
     text-align: center;
     margin-top: 200px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     font-size: 20px;
 }
 
@@ -64,4 +83,57 @@
     text-align: center;
     margin-bottom: 50px;
 
+}
+
+.circles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .circle-1 {
+     background-color: #bbb;
+     height: 115px;
+     width: 110px;
+     border-radius: 50%;
+     margin: 30px;
+ 
+ }
+
+ .divider {
+    width: 1300px;
+    height: 5px;
+    background-color: aqua;
+    display: inline-block;
+    margin-top: 200px;
+    margin-left: 100px;
+    border-radius: 15px;
+}
+
+/*water-food*/
+
+.flora-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+}
+.list div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.item img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #5D5FEF;
+    
 }
