@@ -1,0 +1,53 @@
+.fauna-header {
+    background-image: url("/images/image-banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 539px;
+    display: flex;
+    align-items: center;
+    padding: 112px;
+    }
+
+
+.overview-section .container {
+    text-align: justify;
+    margin: 150px;
+    margin-top: 200px;
+}
+
+.faunasub-header h1 {
+    text-align: center;
+    margin-top: 150px;
+}
+
+/*carnivores*/
+.carnivores-header {
+    text-align: center;
+    margin: 100px;
+}
+
+.flora-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+}
+.list div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.item img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #5D5FEF;
+    
+}

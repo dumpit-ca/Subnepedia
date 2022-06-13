@@ -1,0 +1,51 @@
+.planet-header {
+    background-image: url("/images/image-banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 539px;
+    display: flex;
+    align-items: center;
+    padding: 112px;
+    }
+
+.planet-header .container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.image1 {
+    position: absolute;
+    top: 800px;
+    right: 10%;
+    z-index: 2;
+}
+
+.text p {
+    text-align: justify;  
+    font-size: 20px;
+    float: left;
+    margin: 250px 800px 200px 100px;
+}
+
+.overview-section .container {
+    text-align: justify;
+    margin: 100px;
+}
+
+/* gallery */
+.gallery .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.gallery img {
+    margin: 50px 20px;
+    width: 345px;
+    height: 280px;
+}
+
+.footer {
+    margin-top: 200px;
+}
