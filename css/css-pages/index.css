@@ -18,15 +18,17 @@
 .index-header .buttons {
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
 }
 
 .btn-hero {
+    height: 60px;
     border: 1px solid rgba(107, 233, 230, 0.5);
-    padding: 8px 20px;
-    margin: 100px 20px;
+    padding: 10px 20px;
+    margin: 100px 0;
 }
-
-.buttons button:hover {
+.buttons a:hover {
     background-image: linear-gradient(180deg, #008885, #005472);
     filter: brightness(150%) contrast(150%);
     border-color: #6be9e6;
@@ -34,13 +36,11 @@
 
 /* Row sectioc */
 .heading p {
-    font-size: 20px;
-    width: 429px;
+    width: 58%;
 }
 
 .heading img {
-    min-width: 451px;
-    min-height: 369px;
+    border-radius: 1rem;
 }
 .heading .img-info{
     display: flex;
@@ -65,7 +65,7 @@
 }
 
 .row h1 {
-    font-size: 50px;
+    font-size: 3.1rem;
     text-transform: uppercase;
 }
 /* Image Carousel */
@@ -189,40 +189,35 @@
 }
 .reviews div{
     display: flex;
-    flex-direction: row;
 }
 
 .reviewer {
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    width: 298px;
+    width: 30%;
     height: 138px;
-    padding: 15px 40px;
+    padding: 15px 50px;
     background-image: linear-gradient(180deg, rgba(0, 53, 111, 0.5), rgba(0, 0, 0, 0.5));
-    border-color: rgba(107, 233, 230, 0.5);
+    border: 1px solid #6BE9E6;
     border-radius: 10px;
     margin: 4rem 2rem;
 }
 .reviewer .reviewer-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    bottom: -12px;
+    bottom: -20px;
     right: -10px;
-    font-weight: 600;
-    padding: 4px 10px;
+    padding: 0.6rem;
     border-radius: 6px;
     line-height: 31px;
     font-size: 20px;
     background-color: #F2F7F8;
-    color: #212121;
 }
-.reviewer .reviewer-text{
-    font-weight: 400;
-    font-size: 16px;
+.reviewer .reviewer-text p{
     line-height: 24px;
-    text-align: center;
+    text-align: start;
 }
 /* Call to Action */
 .get-started .container{

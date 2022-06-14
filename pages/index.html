@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/css-pages/index.css">
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/1d56e9de16.js" crossorigin="anonymous"></script>
     <!-- Icon -->
     <link rel="icon" type="image/x-icon" href="/images/Main/favicon.png">
     <title>Home | Subnepedia</title>
@@ -22,21 +22,21 @@
                 <span class="custom-font first">sub</span><span class="custom-font second">nepedia</span>
             </div>
             <ul class="nav">
-                <li><a href="#">Home</a></li>
+                <li><a href="/pages/index.html">Home</a></li>
                 <li><a href="#">Crafting</a></li>
                 <li><a href="/pages/explore.html">Explore</a></li>
                 <div class="dropdown">
-                    <div class="btn-drop">Gameplay<i class="bi bi-caret-down-fill"></i></div>
+                    <div class="btn-drop">Gameplay <i class="fa-solid fa-caret-down"></i></div>
                     <div class="dropdown-menu">
-                        <a href="#">Storyline</a>
-                        <a href="#">Survival</a>
+                        <a href="/pages/gameplay - storyline/storyline.html">Storyline</a>
+                        <a href="/pages/gameplay - storyline/survival.html">Survival</a>
                     </div>
                 </div>
                 <div class="dropdown">
-                    <div class="btn-drop">World<i class="bi bi-caret-down-fill"></i></div>
+                    <div class="btn-drop">World <i class="fa-solid fa-caret-down"></i></div>
                     <div class="dropdown-menu" id="world-menu">
-                        <a href="#">Planet 4546B</a>
-                        <a href="#">Fauna</a>
+                        <a href="/pages/world/planet4546B.html">Planet 4546B</a>
+                        <a href="/pages/world/fauna.html">Fauna</a>
                         <a href="/pages/world/flora.html">Flora</a>
                         <a href="#">Biomes</a>
                     </div>
@@ -58,16 +58,21 @@
                     you!
                 </p>
                 <div class="buttons">
-                    <button class="border-6 color-2 btn-hero"><a href=""><img src="/images/Logos/pc-logo.png"
-                                alt="pc-logo"></a></button>
-                    <button class="border-6 color-2 btn-hero"><a href=""><img src="/images/Logos/ps5-logo.png"
-                                alt="ps5 logo"></a></button>
-                    <button class="border-6 color-2 btn-hero"><a href=""><img src="/images/Logos/ps4-logo.png"
-                                alt="ps4 logo"></a></button>
-                    <button class="border-6 color-2 btn-hero"><a href=""><img src="/images/Logos/nintendo-logo.png"
-                                alt="nintendo logo"></a></button>
-                    <button class="border-6 color-2 btn-hero"><a href=""><img src="/images/Logos/xbox-logo.png"
-                                alt="xbox logo"></a></button>
+                    <a class="border-6 color-2 btn-hero"
+                        href="https://store.steampowered.com/app/264710/Subnautica/"><img
+                            src="/images/Logos/pc-logo.png" alt="pc logo"></a>
+                    <a class="border-6 color-2 btn-hero"
+                        href="https://store.playstation.com/en-us/product/UP5245-PPSA02452_00-6063362694848820"><img
+                            class="img-fluid" src="/images/Logos/ps5-logo.png" alt="ps5 logo"></a>
+                    <a class="border-6 color-2 btn-hero"
+                        href="https://store.playstation.com/en-us/product/UP5245-PPSA02452_00-6063362694848820"><img
+                            class="img-fluid" src="/images/Logos/ps4-logo.png" alt="ps4 logo"></a>
+                    <a class="border-6 color-2 btn-hero"
+                        href="https://www.nintendo.com/store/products/subnautica-switch/"><img class="img-fluid"
+                            src="/images/Logos/nintendo-logo.png" alt="nintendo logo"></a>
+                    <a class="border-6 color-2 btn-hero"
+                        href="https://www.xbox.com/en-us/games/store/subnautica/bx3s1q5dvhrd"><img class="img-fluid"
+                            src="/images/Logos/xbox-logo.png" alt="xbox logo"></a>
                 </div>
 
             </div>
@@ -79,26 +84,26 @@
         <h1 class="custom-font page-title my-8">Dive Deep</h1>
         <div class="container">
             <div class="row">
-                <img class="img-fluid" src="/images/Index-page/scavenge.png" alt="">
+                <img class="img-fluid" src="/images/Index-page/scavenge.png" alt="scavenge materials">
                 <div class="img-info">
                     <h1 class="custom-font">scavenge.</h1>
-                    <p>Facilisi viverra dictum augue eu lobortis elit. In et donec habitasse lacus mi commodo elementum.
+                    <p>Dive deep into the ocean to scavenge for food, materials, and many more.
                     </p>
                 </div>
             </div>
             <div class="row">
                 <div class="img-info">
                     <h1 class="custom-font">survive.</h1>
-                    <p>Facilisi viverra dictum augue eu lobortis elit. In et donec habitasse lacus mi commodo elementum.
+                    <p>Fight creatures to death or die trying. Brace yourselves!
                     </p>
                 </div>
-                <img src="/images/Index-page/survive.png" alt="">
+                <img src="/images/Index-page/survive.png" alt="survive fighting creatures">
             </div>
             <div class="row">
-                <img src="/images/image-placeholder.png" alt="">
+                <img src="/images/Index-page/neptune.png" alt="neptune rocket">
                 <div class="img-info">
                     <h1 class="custom-font">escape.</h1>
-                    <p>Facilisi viverra dictum augue eu lobortis elit. In et donec habitasse lacus mi commodo elementum.
+                    <p>Build your way out and triumph against the cruel planet.
                     </p>
                 </div>
             </div>
@@ -116,37 +121,34 @@
                 <div class="slider">
                     <div class="slide slide-1">
                         <div class="caption">
-                            <h2>Lorem Ipsum 1</h2>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem neque animi rem magni
-                                eligendi, laudantium fugiat, mollitia atque, blanditiis placeat at exercitationem.</p>
+                            <h2>Grassy Plateus</h2>
+                            <p>One of the largest biome in the game that holds down the creepvines.</p>
                         </div>
                     </div>
                     <div class="slide slide-2">
                         <div class="caption">
-                            <h2>Lorem Ipsum 2</h2>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem neque animi rem magni
-                                eligendi, laudantium fugiat, mollitia atque, blanditiis placeat at exercitationem.</p>
+                            <h2>Kelp Forest</h2>
+                            <p>Be careful when you enter here, the cave system under the forest is very confusing and
+                                you might bumped into the Stalker.</p>
                         </div>
                     </div>
                     <div class="slide slide-3">
                         <div class="caption">
-                            <h2>Lorem Ipsum 3</h2>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem neque animi rem magni
-                                eligendi, laudantium fugiat, mollitia atque, blanditiis placeat at exercitationem.</p>
+                            <h2>Grand Reef</h2>
+                            <p>A deep biomes that will wow you with the luminescence, especially at night.</p>
                         </div>
                     </div>
                     <div class="slide slide-4">
                         <div class="caption">
-                            <h2>Lorem Ipsum 4</h2>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem neque animi rem magni
-                                eligendi, laudantium fugiat, mollitia atque, blanditiis placeat at exercitationem.</p>
+                            <h2>Mushroom Forest</h2>
+                            <p>Who thought mushroom can be tall as trees, taller even! Do not venture too far, you will
+                                never know what lies ahead.</p>
                         </div>
                     </div>
                     <div class="slide slide-1">
                         <div class="caption">
-                            <h2>Lorem Ipsum 1</h2>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem neque animi rem magni
-                                eligendi, laudantium fugiat, mollitia atque, blanditiis placeat at exercitationem.</p>
+                            <h2>Grassy Plateus</h2>
+                            <p>One of the largest biome in the game that holds down the creepvines.</p>
                         </div>
                     </div>
                 </div>
@@ -161,30 +163,42 @@
         <div class="container">
             <div>
                 <div class="reviewer">
-                    <h4 class="reviewer-name">Lorem Ipsum</h4>
-                    <p class="reviewer-text">“Lorem ipsum dolor sit amet consectetur”</p>
+                    <h4 class="reviewer-name"><img class="img-fluid" src="/images/Logos/forbes-logo.png"
+                            alt="forbes logo"></h4>
+                    <div class="reviewer-text">
+                        <p>“One of the best survival games ever made”</p>
+                    </div>
+
                 </div>
                 <div class="reviewer">
-                    <h4 class="reviewer-name">Lorem Ipsum</h4>
-                    <p class="reviewer-text">“Lorem ipsum dolor sit amet consectetur”</p>
+                    <h4 class="reviewer-name"><img class="img-fluid" src="/images/Logos/ign-logo.png" alt="ign logo">
+                    </h4>
+                    <p class="reviewer-text">“Subnautica is what open-world survival games should strive to be.”</p>
                 </div>
                 <div class="reviewer">
-                    <h4 class="reviewer-name">Lorem Ipsum</h4>
-                    <p class="reviewer-text">“Lorem ipsum dolor sit amet consectetur”</p>
+                    <h4 class="reviewer-name"><img class="img-fluid" src="/images/Logos/GamesRader-logo.png"
+                            alt="games radar logo"></h4>
+                    <p class="reviewer-text">“I haven't felt this petrified in a video game since Resident Evil 7”
+                    </p>
                 </div>
             </div>
             <div>
                 <div class="reviewer">
-                    <h4 class="reviewer-name">Lorem Ipsum</h4>
-                    <p class="reviewer-text">“Lorem ipsum dolor sit amet consectetur”</p>
+                    <h4 class="reviewer-name"><img class="img-fluid" src="/images/Logos/pc-gamer-logo.png"
+                            alt="pc gamer logo"></h4>
+                    <p class="reviewer-text">“Taking you to beautiful and terrifying depths.”</p>
                 </div>
                 <div class="reviewer">
-                    <h4 class="reviewer-name">Lorem Ipsum</h4>
-                    <p class="reviewer-text">“Lorem ipsum dolor sit amet consectetur”</p>
+                    <h4 class="reviewer-name"><img class="img-fluid" src="/images/Logos/fandom-logo.png"
+                            alt="fandom logo"></h4>
+                    <p class="reviewer-text">“No matter which way you prefer to play, Subnautica is an incredibly
+                        engaging experience.”</p>
                 </div>
                 <div class="reviewer">
-                    <h4 class="reviewer-name">Lorem Ipsum</h4>
-                    <p class="reviewer-text">“Lorem ipsum dolor sit amet consectetur”</p>
+                    <h4 class="reviewer-name"><img class="img-fluid" src="/images/Logos/destructoid-logo.png"
+                            alt="destrucroid logo"></h4>
+                    <p class="reviewer-text">“Subnautica works brilliantly as a serene, lonely, contemplative
+                        adventure.”</p>
                 </div>
             </div>
         </div>
@@ -192,14 +206,15 @@
     <section class="get-started my-8">
         <div class="container">
             <div class="call-to-action my-8">
-                <p>Rhoncus, accumsan dictum</p>
+                <p>Know More By Jump Starting Your Game With Reliable Tips</p>
                 <h1 class="custom-font">Descend Into The Depths Of The Ocean And Face Your Fears</h1>
-                <a class="color-1 border-6 getting-started button-text" href="#">get started</a>
+                <a class="color-1 border-6 getting-started button-text" href="/pages/getting-started.html">get
+                    started</a>
             </div>
         </div>
     </section>
     <!-- Footer -->
-    <footer class="footer">
+   <footer class="footer">
         <div class="container">
             <div class="logo">
                 <span class="custom-font first">sub</span><span class="custom-font second">nepedia</span>
@@ -207,10 +222,10 @@
             <div class="footer-nav">
                 <p>&copy; 2022 All Rights Reserved</p>
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="/pages/index.html">Home</a></li>
                     <li><a href="/pages/explore.html">Explore</a></li>
-                    <li><a href="#">Community</a></li>
-                    <li><a href="#">System Status</a></li>
+                    <li><a href="https://discord.com/invite/subnautica">Community</a></li>
+                    <li><a href="https://unknownworlds.com/">Unknown Worlds Entertainment</a></li>
                 </ul>
             </div>
         </div>
