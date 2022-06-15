@@ -3,7 +3,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     padding: 50px;
 }
@@ -16,7 +16,6 @@
 .flora .container{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .flora .list {
     display: flex;
@@ -31,10 +30,8 @@
     align-items: center;
     gap: 40px;
 }
-.flora .item img {
-    width: 120px;
-    height: 120px;
+.item img {
     border-radius: 50%;
-    overflow: hidden;
     border: 2px solid #5D5FEF;
+
 }

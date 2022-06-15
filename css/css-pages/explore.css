@@ -1,8 +1,9 @@
 .explore-header {
-    background-image: url("/images/image-banner.png");
+    background-image: url("/images/Explore-Page/explore-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 539px;
+    background-position: center;
+    height: 80vh;
     display: flex;
     padding: 50px;
 }
@@ -10,7 +11,6 @@
 .explore-header .container {
     display: flex;
     align-items: center;
-    flex-direction: row;
 }
 
 /* About Us Section */
@@ -19,10 +19,8 @@
 }
 
 .about-section .about-us p {
-    text-align: justify;
-    font-size: 20px;
+    font-size: 1.5rem;
     line-height: 26px;
-    width: 1249px;
 }
 
 .about-section .about-us {

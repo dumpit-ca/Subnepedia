@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
 
 /* General CSS */
@@ -6,16 +6,18 @@ html {
     scroll-behavior: smooth;
 }
 * {
+    font-family: 'Rajdhani', sans-serif;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 body {
-    font-family: 'Rajdhani', sans-serif;
+    text-align: justify;
     background-color: #0B233D;
     color: #F2F7F8;
     overflow-x: hidden;
+    width: 100vw;
 }
 
 /* Container */
@@ -56,7 +58,6 @@ body {
 
 .navbar a {
     font-weight: 600;
-    font-size: 1.1rem;
     text-decoration: none;
     color: #FFFFFF;
 }
@@ -91,7 +92,6 @@ ul {
 
 .dropdown .btn-drop {
     font-weight: 600;
-    font-size: 1rem;
     margin: 0;
 }
 
@@ -127,11 +127,11 @@ ul {
     font-family: 'Days One', sans-serif;
 }
 .subheading {
+    font-size: 1.2rem;
     font-weight: 600;
     color: #6BE9E6;
     line-height: 30px;
     text-align: center;
-    font-size: 1.3rem;
     margin: 24px;
 }
 .page-header{
@@ -142,9 +142,8 @@ ul {
 }
 .page-title {
     line-height: 1.2;
-    margin-bottom: 2rem;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 /* Spacings */
 .my-8{
@@ -157,6 +156,9 @@ ul {
 }
 .mb-5{
     margin-bottom: 5rem
+}
+.mb-3{
+    margin-bottom: 3rem;
 }
 .my-3{
     margin-top: 3rem;
@@ -172,9 +174,9 @@ ul {
     margin-bottom: 10rem;
 }
 /* Image */
-.img-fluid {
+/* .img-fluid {
     max-width: 100%;
-}
+} */
 
 /* Buttons */
 .border-6 {
@@ -201,11 +203,12 @@ ul {
 .hr-divider{
     display: flex;
     justify-content: center;
-    padding: 69px 125px;
+    padding: 50px 125px;
+    margin: 3rem 0;
 }
 .divider{
-    border-top: 6px solid #6BE9E6;
-    width: 1157px;
+    border-top: 3px solid #6BE9E6;
+    width: 90vw;
     border-radius: 5px;
 }
 /* Overviews for the pages */
@@ -234,10 +237,13 @@ ul {
 .footer ul{
     display: flex;
 }
+.footer p{
+    font-size: 20px;
+}
 .footer a {
+    font-size: 20px;
     text-decoration: none;
     color: #F2F7F8;
-    font-size: 1.1rem;
 }
 .footer .footer-nav{
     display: flex;

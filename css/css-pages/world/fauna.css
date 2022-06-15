@@ -1,0 +1,37 @@
+.fauna-header {
+    background-image: url("/images/World-Page/Fauna-Page/fauna-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    padding: 50px;
+}
+
+.fauna-header .container {
+    display: flex;
+    align-items: center;
+}
+.fauna .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.fauna .list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.item img {
+    border-radius: 50%;
+    border: 2px solid #5D5FEF;
+
+}
+.list div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
