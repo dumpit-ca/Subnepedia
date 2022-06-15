@@ -203,8 +203,8 @@ ul {
 .hr-divider{
     display: flex;
     justify-content: center;
-    padding: 50px 125px;
-    margin: 3rem 0;
+    /* padding: 50px 125px; */
+    margin: 3rem 3rem;
 }
 .divider{
     border-top: 3px solid #6BE9E6;
