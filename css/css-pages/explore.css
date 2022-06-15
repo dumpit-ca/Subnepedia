@@ -19,12 +19,8 @@
 }
 
 .about-section .about-us p {
-    font-size: 1.5rem;
+    font-size: 20px;
     line-height: 26px;
-}
-
-.about-section .about-us {
-    margin: 10px 3rem;
 }
 
 .about-section .container {
@@ -49,17 +45,19 @@
 }
 
 /* Gallery Section */
-.gallery .container {
+.explore-gallery .container {
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    justify-content: center;
 }
-.gallery img {
-    margin: 50px 20px;
-    width: 345px;
-    height: 280px;
+
+.gallery-img {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
 }
-.gallery .gallery-img{
-    margin: 40px 0;
+
+.gallery-img div {
+    display: flex;
+    gap: 60px;
 }

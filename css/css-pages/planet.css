@@ -1,51 +1,43 @@
 .planet-header {
-    background-image: url("/images/image-banner.png");
+    background-image: url("/images/World-Page/Planet4546B-Page/planet-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 539px;
+    background-position: center;
+    height: 80vh;
     display: flex;
-    align-items: center;
-    padding: 112px;
-    }
+    padding: 50px;
+}
 
 .planet-header .container {
     display: flex;
     align-items: center;
-    flex-direction: row;
 }
-
-.image1 {
-    position: absolute;
-    top: 800px;
-    right: 10%;
-    z-index: 2;
-}
-
-.text p {
-    text-align: justify;  
-    font-size: 20px;
-    float: left;
-    margin: 250px 800px 200px 100px;
-}
-
-.overview-section .container {
-    text-align: justify;
-    margin: 100px;
-}
-
-/* gallery */
-.gallery .container {
+.planet-info .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    padding: 80px 120px;
+    gap: 40px;
 }
-.gallery img {
-    margin: 50px 20px;
-    width: 345px;
-    height: 280px;
+.planet-info p{
+    font-size: 20px;
 }
 
-.footer {
-    margin-top: 200px;
+/* gallery */
+.planet-gallery .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+}
+.planet-gallery .gallery-img{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.gallery-img div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
 }

@@ -36,11 +36,8 @@
 
 /* Row sectioc */
 .heading p {
-    width: 58%;
-}
-
-.heading img {
-    border-radius: 1rem;
+    font-size: 20px;
+    width: 80%;
 }
 .heading .img-info{
     display: flex;
