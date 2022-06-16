@@ -1,0 +1,22 @@
+/* image */
+.item img {
+    border-radius: 50%;
+    border: 2px solid #5D5FEF;
+}
+.list div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.item-hover {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    transition: all 0.3s;
+    display: block;
+    transform: scale(1);
+}
+.item-hover:hover{
+    transform: scale(1.1);
+}

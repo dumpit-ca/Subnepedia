@@ -1,107 +1,111 @@
     html {
         scroll-behavior: smooth;
     }
-.storyline-header {
-    background-image: url("/images/Gameplay-page/test.jpg");
-}
 
-/* section 1 */
-.section-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
-}
+    .storyline-header {
+        background-image: url("/images/Gameplay-page/storyline-bg.jpg");
+    }
 
-.circle-warning {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-}
+    /* section 1 */
+    .section-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
 
-.warning {
-    font-size: 30px;
-    color: #212121;
-}
+    .circle-warning {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
 
-.section-1 .table-of-contents {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 100px;
-}
+    .warning {
+        font-size: 30px;
+        color: #212121;
+    }
 
-.row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 50px;
-}
+    .section-1 .table-of-contents {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
 
-.cirle-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    font-size: 30px;
-    color: #212121;
-    font-weight: 500;
-}
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
 
-.content-num {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-.content-num a {
-     color: #F2F7F8;
-     text-decoration: none;
-}
-.content-num h3 {
-    font-weight: 600;
-    text-align: start;
-    width: 250px;
-   
-}
+    .cirle-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        font-size: 30px;
+        color: #212121;
+        font-weight: 500;
+    }
 
-.section-2 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 100px;
-}
+    .content-num {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
 
-.section-2 .content-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 15px;
-}
+    .content-num a {
+        color: #F2F7F8;
+        text-decoration: none;
+    }
 
-.content-info .content-title {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 14px;
-}
+    .content-num h3 {
+        font-weight: 600;
+        text-align: start;
+        width: 250px;
 
-.content-info p {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 26px;
-    text-align: justify;
-}
-/* .header h1 {
+    }
+
+    .section-2 .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 100px;
+    }
+
+    .section-2 .content-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .content-info .content-title {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 14px;
+    }
+
+    .content-info p {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: justify;
+    }
+
+    /* .header h1 {
     font-size: 50px;
     text-align: center;
     line-height: 1.2;
@@ -123,8 +127,8 @@
 } */
 
 
-/*circles*/
-/* .circle {
+    /*circles*/
+    /* .circle {
     width: 100%;
     height: auto;
     display: flex;
@@ -155,10 +159,10 @@
     color: white;
 } */
 
-/*circles*/
+    /*circles*/
 
 
-/* .row {
+    /* .row {
     display: flex;
     align-items: center;
     justify-content: center;
