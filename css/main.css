@@ -254,8 +254,6 @@ img {
 .hr-divider {
     display: flex;
     justify-content: center;
-    /* padding: 50px 125px; */
-    margin: 3rem 3rem;
 }
 
 .divider {
