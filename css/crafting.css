@@ -1,0 +1,46 @@
+.crafting-header {
+  background-image: url("/images/crafting/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 539px;
+  display: flex;
+  padding: 50px;
+}
+
+.crafting-header .container {
+  display: flex;
+  align-items: center;
+}
+
+.crafting .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.materials {
+  font-size: 1.3rem;
+  text-align: justify;
+  padding: 60px 95px;
+  gap: 40px;
+}
+.crafting .list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+}
+  
+.list div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.crafting .list img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #5D5FEF;
+}
