@@ -2,40 +2,26 @@
   background-image: url("/images/Crafting-page/crafting-bg.png");
 }
 
-.crafting-header .container {
+.section-1 .container {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  padding: 39px 95px;
+  gap: 40px;
 }
 
-.crafting .container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.materials {
-  font-size: 1.3rem;
+.section-1 .materials-text {
+  font-size: 1.2rem;
   text-align: justify;
-  padding: 60px 95px;
-  gap: 40px;
 }
-.crafting .list {
+.section-2 .header {
+  margin-top: 72px;
+}
+.section-2 .container {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
-  gap: 80px;
-}
-  
-.list div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-}
-.crafting .list img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 2px solid #5D5FEF;
+  gap: 30px;
 }
