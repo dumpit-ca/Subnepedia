@@ -2,7 +2,7 @@
   background-image: url("/images/Crafting-page/crafting-bg.png");
 }
 
-.section-1 .container {
+.section-name .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,17 +11,58 @@
   gap: 40px;
 }
 
-.section-1 .materials-text {
+.section-name .section-name-text {
   font-size: 1.2rem;
   text-align: justify;
 }
-.section-2 .header {
+
+.materials .header {
   margin-top: 72px;
 }
-.section-2 .container {
+
+.materials .container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 30px;
+}
+
+.materials .advanced {
+  padding: 70px 95px;
+}
+
+.materials .basic {
+  padding: 70px 95px;
+}
+
+.materials .basic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 95px;
+}
+
+.materials .biological {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 95px;
+  gap: 50px;
+}
+.materials .minerals {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 95px;
+  gap: 50px;
+}
+.section-3 .electronics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 95px;
 }
