@@ -44,25 +44,6 @@
         gap: 50px;
     }
 
-    .cirle-content {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 45px;
-        height: 45px;
-        border-radius: 50%;
-        font-size: 30px;
-        color: #212121;
-        font-weight: 500;
-    }
-
-    .content-num {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-    }
-
     .content-num a {
         color: #F2F7F8;
         text-decoration: none;

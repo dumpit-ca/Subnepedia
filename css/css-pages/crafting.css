@@ -1,10 +1,5 @@
 .crafting-header {
-  background-image: url("/images/crafting/banner.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 539px;
-  display: flex;
-  padding: 50px;
+  background-image: url("/images/Crafting-page/crafting-bg.png");
 }
 
 .crafting-header .container {
