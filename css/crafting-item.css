@@ -1,5 +1,5 @@
 .crafting-header {
-  background-image: url("/images/Crafting-page/crafting-items-bg.jpg");
+  background-image: url("../images/Crafting-page/crafting-items-bg.jpg");
   height: 100vh;
 }
 .crafting-header .color-overlay {

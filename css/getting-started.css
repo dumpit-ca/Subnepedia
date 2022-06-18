@@ -30,7 +30,7 @@
 }
 /* Socials */
 .socials {
-    background-image: url("/images/Getting-Started-Page/footer-bg.jpg");
+    background-image: url("../images/Getting-Started-Page/footer-bg.jpg");
     height: 100vh;
     display: flex;
     justify-content: center;

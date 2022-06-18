@@ -1,5 +1,5 @@
 .fauna-header {
-    background-image: url("/images/World-Page/Fauna-Page/fauna-bg.jpg");
+    background-image: url("../../images/World-Page/Fauna-Page/fauna-bg.jpg");
 }
 .fauna .container{
     display: flex;
