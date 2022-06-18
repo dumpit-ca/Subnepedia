@@ -1,0 +1,33 @@
+.biomes-header {
+  background-image: url("/images/World-Page/Biomes-Page/biomes-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 539px;
+  display: flex;
+  padding: 50px;
+}
+
+h1{
+  font-size: 50px;
+}
+
+img{
+  width: 531px;
+  height: 297px;
+  margin-top: 50px;
+}
+
+p{
+  font-size: 20px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: 100px;
+}
+
+.footer{
+  margin-top: 0px;
+}
