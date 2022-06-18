@@ -52,6 +52,7 @@
   padding: 70px 95px;
   gap: 50px;
 }
+
 .materials .minerals {
   display: flex;
   flex-direction: column;
@@ -60,9 +61,70 @@
   padding: 70px 95px;
   gap: 50px;
 }
+
 .section-3 .electronics {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 70px 95px;
+}
+
+.section-4 .tools {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 95px;
+  gap: 50px;
+}
+
+.flex-column .crafting-tools {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 95px;
+  gap: 100px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 47px;
+  gap: 100px;
+}
+
+.row h1 {
+  font-size: 2rem;
+}
+
+.img-info p {
+  font-size: 20px;
+}
+
+.row .img-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 22px;
+}
+
+.section-5 .equipment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 95px;
+  gap: 50px;
+}
+
+.flex-column .vehicles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 95px;
+  gap: 100px;
+}
+.section-7 {
+  margin: 70px 0;
 }
