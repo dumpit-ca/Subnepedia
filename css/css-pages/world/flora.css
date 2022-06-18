@@ -1,16 +1,5 @@
 .flora-header {
     background-image: url("/images/World-Page/Flora-Page/Flora-items/hero-img.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 80vh;
-    display: flex;
-    padding: 50px;
-}
-
-.flora-header .container {
-    display: flex;
-    align-items: center;
 }
 /* flora Items */
 .flora .container{

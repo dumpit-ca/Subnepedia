@@ -51,14 +51,6 @@
     font-weight: 600;
 }
 
-.row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-}
-
 .section-2,
 .section-3 {
     display: flex;

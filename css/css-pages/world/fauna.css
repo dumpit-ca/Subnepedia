@@ -1,16 +1,5 @@
 .fauna-header {
     background-image: url("/images/World-Page/Fauna-Page/fauna-bg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 80vh;
-    display: flex;
-    padding: 50px;
-}
-
-.fauna-header .container {
-    display: flex;
-    align-items: center;
 }
 .fauna .container{
     display: flex;
@@ -23,4 +12,5 @@
     align-items: center;
     flex-direction: column;
     gap: 80px;
+    padding: 70px 95px;
 }

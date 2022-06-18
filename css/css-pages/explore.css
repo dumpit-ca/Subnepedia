@@ -26,7 +26,7 @@
 }
 
 .trailers {
-    padding: 80px 120px;
+    padding: 70px 95px;
 }
 
 .trailer-video img {
@@ -34,6 +34,10 @@
 }
 
 /* Gallery Section */
+.explore-gallery {
+    padding: 70px 95px;
+    margin-bottom: 100px;
+}
 .explore-gallery .container {
     display: flex;
     align-items: center;

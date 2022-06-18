@@ -1,21 +1,12 @@
 .biomes-header {
-  background-image: url("/images/World-Page/Biomes-Page/biomes-bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 539px;
-  display: flex;
-  padding: 50px;
-}
-
-.biomes-header .container {
-  display: flex;
-  align-items: center;
+  background-image: url("/images/World-Page/Biomes-Page/biomes-bg.jpg");
 }
 
 .biomes .container{
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 100px;
 }
 .biomes .list {
   display: flex;
@@ -29,11 +20,4 @@
   justify-content: center;
   align-items: center;
   gap: 40px;
-}
-.biomes .list img {
-  width: 200px;
-  height: 200px;
-  border-radius: 10%;
-  overflow: hidden;
-  border: 2px solid #5D5FEF;
 }
