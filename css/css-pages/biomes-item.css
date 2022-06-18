@@ -1,33 +1,35 @@
 .biomes-header {
-  background-image: url("/images/World-Page/Biomes-Page/biomes-bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 539px;
-  display: flex;
-  padding: 50px;
+  background-image: url("/images/World-Page/Biomes-Page/biomes-items-bg.jpg");
+  height: 100vh;
 }
 
-h1{
-  font-size: 50px;
+.biomes-header .color-overlay {
+  height: 100vh !important;
 }
 
-img{
-  width: 531px;
-  height: 297px;
-  margin-top: 50px;
-}
-
-p{
-  font-size: 20px;
-}
-
-.row {
+.biomes-header .row {
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   gap: 100px;
+  padding: 0 80px;
+  margin: 0;
 }
 
-.footer{
-  margin-top: 0px;
+.biomes-header .row .img-info {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 22px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+img {
+  width: 40%;
 }
