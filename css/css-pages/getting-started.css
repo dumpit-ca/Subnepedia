@@ -1,17 +1,6 @@
 .starting-header {
     background-image: url("/images/Getting-Started-Page/start-bg.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 539px;
-    display: flex;
 }
-
-.starting-header .container {
-    display: flex;
-    align-items: center;
-}
-
 /* Tips */
 .getting-started-tips .container {
     display: flex;
@@ -39,54 +28,17 @@
 .tips div {
     padding: 3rem;
 }
-
-/* FAQs */
-.FAQ .container {
+/* Socials */
+.socials {
+    background-image: url("/images/Getting-Started-Page/footer-bg.jpg");
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
-
-.FAQ .columns {
-    display: flex;
-    flex-direction: row;
-    gap: 1.3rem;
-    margin: 70px 94px 80px 94px;
-
-}
-
-.FAQ .column-1 {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 1.3rem;
-}
-
-.FAQ .column-2 {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 1.3rem;
-}
-
-.FAQ .columns h3 {
-    font-size: 1.5rem;
-    font-weight: 600;
-}
-
-.FAQ .columns p {
-    font-size: 1rem;
-    width: 556px;
-}
-
-/* Socials */
-.socials {
-    background-image: url("/images/image-banner.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 100px;
-    min-height: 734px;
+.socials .color-overlay {
+    height: 100vh;
 }
 
 .socials .container {
