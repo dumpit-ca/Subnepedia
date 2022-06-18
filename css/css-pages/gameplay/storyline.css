@@ -48,20 +48,24 @@
         color: #F2F7F8;
         text-decoration: none;
     }
-
+    .content-info h1 {
+        font-size: 30px;
+    }
     .content-num h3 {
         font-weight: 600;
         text-align: start;
         width: 250px;
-
     }
 
     .section-2 .container {
         display: flex;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
         flex-wrap: wrap;
         gap: 100px;
+    }
+    .section-2 {
+         padding: 70px 95px;
     }
 
     .section-2 .content-info {
@@ -85,107 +89,3 @@
         line-height: 26px;
         text-align: justify;
     }
-
-    /* .header h1 {
-    font-size: 50px;
-    text-align: center;
-    line-height: 1.2;
-    margin: 2rem 0;
-    padding-top: 100px;
-}
-
-.header h2 {
-    text-align: center;
-    color: aqua;
-    margin-top: 50px;
-    font-size: 20px;
-}
-
-.heading-two h1 {
-    text-align: center;
-    margin-top: 200px;
-    font-size: 50px;
-} */
-
-
-    /*circles*/
-    /* .circle {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    left: 180px;
-    color: black;
-    text-align: center;
-    font-size: 15px;
-    justify-content: center;
-
-}
-
-.flex-circle {
-    width: 100px;
-    height: 100px;
-    line-height: 100px;
-    border-radius: 50%;
-    background-color: aqua;
-    margin: 70px;
-    font-size: 50px;
-    color: black;
-
-}
-
-.flex-circle h1 {
-    margin-top: -30px;
-    font-size: 20px;
-    color: white;
-} */
-
-    /*circles*/
-
-
-    /* .row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
-
-
-.number1 {
-    position: absolute;
-    font-size: 40px;
-    color: #ffff;
-    top: 550px;
-    right: 80px;
-}
-
-
-.number {
-    justify-content: center;
-    padding: 6%;
-
-}
-
-.title {
-    float: left;
-    margin-left: 200px;
-    margin-top: 75px;
-}
-
-.description p {
-    text-align: justify;
-    margin-left: 600px;
-    padding: 10px;
-}
-
-.title-2 {
-    float: right;
-    margin-right: 200px;
-    margin-top: 60px;
-}
-
-.description-2 p {
-    text-align: justify;
-    margin-right: 600px;
-    padding: 10px;
-} */
