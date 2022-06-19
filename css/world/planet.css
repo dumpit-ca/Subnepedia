@@ -1,5 +1,5 @@
 .planet-header {
-    background-image: url("/images/World-Page/Planet4546B-Page/planet-bg.jpg");
+    background-image: url("../../images/World-Page/Planet4546B-Page/planet-bg.jpg");
 }
 .planet-info .container{
     display: flex;

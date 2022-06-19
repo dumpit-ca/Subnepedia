@@ -115,25 +115,25 @@
 }
 
 .img-container .slider .slide.slide-1 {
-    background-image: url("/images/Index-page/1.png");
+    background-image: url("../images/Index-page/1.png");
     background-size: cover;
     background-position: center;
 }
 
 .img-container .slider .slide.slide-2 {
-    background-image: url("/images/Index-page/2.png");
+    background-image: url("../images/Index-page/2.png");
     background-size: cover;
     background-position: center;
 }
 
 .img-container .slider .slide.slide-3 {
-    background-image: url("/images/Index-page/3.png");
+    background-image: url("../images/Index-page/3.png");
     background-size: cover;
     background-position: center;
 }
 
 .img-container .slider .slide.slide-4 {
-    background-image: url("/images/Index-page/4.png");
+    background-image: url("../images/Index-page/4.png");
     background-size: cover;
     background-position: center;
 }

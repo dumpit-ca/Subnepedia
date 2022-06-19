@@ -46,7 +46,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 104px 96px;
+    z-index: 1;
 }
 
 .socials .page-title {
@@ -78,6 +78,7 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
+    z-index: 1;
 }
 .social-buttons a {
     padding: 12px 40px;
