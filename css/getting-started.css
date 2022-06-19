@@ -1,5 +1,5 @@
 .starting-header {
-    background-image: url("/images/Getting-Started-Page/start-bg.jpg");
+    background-image: url("../images/Getting-Started-Page/start-bg.jpg");
 }
 /* Tips */
 .getting-started-tips .container {
@@ -68,7 +68,6 @@
    justify-content: center;
    align-items: center;
    gap: 30px;
-   padding: 1px 4px;
 }
 .socials .social-icons .icons{
     font-size: 50px;
