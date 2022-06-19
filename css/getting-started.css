@@ -1,5 +1,5 @@
 .starting-header {
-    background-image: url("/images/Getting-Started-Page/start-bg.jpg");
+    background-image: url("../images/Getting-Started-Page/start-bg.jpg");
 }
 /* Tips */
 .getting-started-tips .container {
@@ -31,11 +31,13 @@
 /* Socials */
 .socials {
     background-image: url("../images/Getting-Started-Page/footer-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1;
 }
 .socials .color-overlay {
     height: 100vh;
@@ -46,7 +48,6 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    z-index: 1;
 }
 
 .socials .page-title {
@@ -67,7 +68,6 @@
    justify-content: center;
    align-items: center;
    gap: 30px;
-   padding: 1px 4px;
 }
 .socials .social-icons .icons{
     font-size: 50px;
