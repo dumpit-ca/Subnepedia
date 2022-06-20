@@ -1,7 +1,3 @@
-    html {
-        scroll-behavior: smooth;
-    }
-
     .storyline-header {
         background-image: url("../../images/Gameplay-page/storyline-bg.jpg");
     }
@@ -48,9 +44,11 @@
         color: #F2F7F8;
         text-decoration: none;
     }
+
     .content-info h1 {
         font-size: 30px;
     }
+
     .content-num h3 {
         font-weight: 600;
         text-align: start;
@@ -64,8 +62,9 @@
         flex-wrap: wrap;
         gap: 100px;
     }
+
     .section-2 {
-         padding: 70px 95px;
+        padding: 70px 95px;
     }
 
     .section-2 .content-info {

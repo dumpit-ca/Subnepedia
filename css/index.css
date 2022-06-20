@@ -66,6 +66,9 @@
     text-transform: uppercase;
 }
 /* Image Carousel */
+.heading-two .container {
+    padding: 0;
+}
 .heading-two .img-container {
     position: relative;
     width: 100%;
@@ -80,7 +83,7 @@
     width: 500%;
     height: 100%;
     float: left;
-    animation: animate 10s linear infinite;
+    animation: animate 25s linear infinite;
 
 }
 
@@ -111,7 +114,7 @@
     margin: 0;
     padding: 0;
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .img-container .slider .slide.slide-1 {

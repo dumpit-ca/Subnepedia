@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
 
 /* General CSS */
+html{
+    scroll-behavior: smooth;
+}
 * {
     font-family: 'Rajdhani', sans-serif;
     box-sizing: border-box;
@@ -120,6 +123,24 @@ ul {
 #world-menu {
     width: 150px;
 }
+/* Buttons */
+    .top-btn {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        border-radius: 6px;
+    }
+
+    .top-btn a {
+        height: 39px;
+        width: 37px;
+        text-align: center;
+        display: block;
+        cursor: pointer;
+        color: #212121;
+        line-height: 39px;
+        font-size: 25px;
+    }
 
 /* Typography */
 .custom-font {
