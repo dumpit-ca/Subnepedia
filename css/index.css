@@ -51,6 +51,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin: 0 auto;
     gap: 90px;
 }
 
@@ -62,7 +63,7 @@
 }
 
 .row h1 {
-    font-size: 3.1rem;
+    font-size: 2.5rem;
     text-transform: uppercase;
 }
 /* Image Carousel */
