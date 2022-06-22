@@ -6,10 +6,13 @@
     justify-content: center;
     align-items: center;
     padding: 80px 120px;
-    gap: 40px;
+    gap: 100px;
 }
 .planet-info p{
     font-size: 20px;
+}
+.planet-info img {
+    max-width: 100%;
 }
 
 /* gallery */
